@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="img/Fabicon.png" type="image/x-icon">
+
+    <title>Ivan Gallegos Zamora</title>
+</head>
+
+<body>
+
+    <!-- Este el es div que alvergara al todo el contenido como tal -->
+    <div class="CV">
+        <!-- Esta es la parte izquierda que abarca Foto de peril, Contactos,  Habilidades e Idiomas-->
+        <div class="Izquierdo">
+            <!-- Centramos el div que contiene la foto -->
+            <div class="Foto">
+                <img src="img/Foto.jpg" alt="Foto de perfil" width="80%">
+                <!-- Agregamos un hr para mas estetica -->
+            </div>
+            <!-- agregamos una linea por estetica -->
+            <hr>
+            <div class="Contactos">
+                <table class="tablaContactos">
+                    <thead>
+                        <tr>
+                            <th>Contacto</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><b> Cel.</b></td>
+                            <td> 5561237016 </td>
+                        </tr>
+                        <tr>
+                            <td><b> Gmail </b></td>
+                            <!-- Aquí agrego un br en el  -->
+                            <td>ivangallegos13@aragon<br>.unam.mx</td>
+                        </tr>
+
+                        <tr>
+                            <td><b>GitHub</b> </td>
+                            <td> <a href="https://github.com/IvanGallegosAragon">GitHub</a> </td>
+                        </tr>
+                        <tr>
+                            <td><b>Facebook</b> </td>
+                            <!-- No agrego mi facebook  real por privacidad -->
+                            <td> <a href="https://es-la.facebook.com">Facebook</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- Agregamos un br por estetica -->
+            <br>
+            <hr>
+            <div class="Habilidades">
+                <!-- En este caso estamos utilizando una lista de definiciones (dl) ya que tiene implementada la sangria -->
+                <!-- de tal manera que no tengamos que hacer gran modificación, ademas de que la definición con (dd) se dan -->
+                <!-- saltos de linea con cada punto -->
+                <dl class="definicionHabilidades">
+                    <dt><b class="definicionHabilidadesTitulo">Habilidades</b></dt>
+                    <dd>
+                        <ul type="circle">
+                            <li>Alta Comprención Lectora</li>
+                            <li>Resolución de Problemas a traves de modelos matematicos</li>
+                            <li>
+                                Conocimientos en:
+                                <ul type="circle">
+                                    <li>Tratamiento de datos con Python</li>
+                                    <li>Aplicaciones enfocadas en modelado, manipulacion y analis de datos estadisticos</li>
+                                    <li>Generación logica-declarativa de Bases Conocimientos declarativos
+                                        con el fin de representar ambientes reales.
+                                    </li>
+                                    <li>Office</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+            <br>
+            <hr>
+            <div class="Idiomas">
+                <!-- Generamos una tabla de Idiomas que compara el idioma con el nivel -->
+                <table class="tablaIdiomas">
+                    <thead>
+                        <tr>
+                            <th>Idiomas</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><b>Español</b></td>
+                            <td> Nativo </td>
+                        </tr>
+                        <tr>
+                            <td><b>Ingles</b></td>
+                            <td> B1 </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+        </div>
+        <!-- Esta parte es la parte derecha que abarca Nombre, Presentación, Expreriencia, Educacion-->
+        <div class="Derecho">
+            <div class="Nombre">
+                <br>
+                <h1> Ivan Gallegos Zamora</h1>
+                <h3>Estudiante en Ingeniera en Computación</h3>
+            </div>
+            <br>
+
+            <div class="Presentacion">
+                <p >Estudiante de 5° semestre de la carrera Ingenieria en Computación de la Facultad de Estudios Superiores Aragón UNAM, con animos de aprender
+                    y crecer tanto academicamente como laboralmente, practicando de manera constante y 
+                    adquieriendo habilidades para el desempeño de dichos campos.,
+                    con interes en los campos de Ambientes virtuales, realidad virtual y realidad aumentada, capacitado para realizar proyectos de estructuras discretas 
+                    para su modelado y analisis en un primer orden. 
+                </p>
+            </div>
+            <br>
+            <div class="Experiencia">
+                <h2>Experiencia</h2>
+                <hr>
+                <table class="tablaExperiencia">
+                    <!-- Estamos generando una tabla de la experiencia academica o laboral que he tenido
+                            De tal manera que no hay como tal thead, solo eisten los bloques para aumentar el espaciado entre parrabos y el hr debajo del
+                            h2 -->
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <!-- Se van a crear casi para cada parrafo de las filas una clase con el fin de modificar su sangria y el tamaño de letra -->
+                            <td class="contExp1">
+                                <p class="experienciaTalCual">
+                                    <b>Asesoramiento</b><br>
+                                </p>
+                            </td>
+                            <td class="contExp2">
+                                <p class="experienciaTalCual">
+                                    <b>Asesoramiento de temas del programa de Ingeniera en Computación</b><br>
+                                </p>
+                                <p>
+                                    Asesoramientos personales conforme a los temas del programa de estudios de la carrera
+                                    Ingeniera en Computación (1°-5° semestre) de la Facultad de Estudios Superiores Aragon UNAM
+                                 </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <!-- Se van a crear casi para cada parrafo de las filas una clase con el fin de modificar su sangria y el tamaño de letra -->
+                            <td class="contExp1">
+                                <p class="experienciaTalCual">
+                                    <b>Programas de Recomendación </b>
+                                </p>
+                            </td>
+                            <td class="contExp2">
+                                <p class="experienciaTalCual">
+                                    <b>Programas de Recomendacion Bayesianos Ingenuos </b><br>
+                                </p>
+                                <p>
+                                    Haciendo uso de los modelos bayesianos, se generan agenetes de recomendaciones
+                                    utilizando datos discretos para poder hacer predicciónes para los usuarios.
+                                    <a href="https://github.com/IvanGallegosAragon/Matematicas_Discretas/blob/main/DiscriminadorBayesianoIngenuoParaAgenteRecomendadorDeBebidas.ipynb">[Ejemplo]</a>
+                                </p>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+            <br>
+            <div class="Educacion">
+                <h2>Educacion</h2>
+                <hr>
+                <table class="tablaEducacion">
+                    <!-- Estamos generando una tabla de los lugares en donde he recibido educación como lo es el CCH y la FES
+                            De tal manera que no hay como tal thead, solo eisten los bloques para aumentar el espaciado entre parrabos y el hr debajo del
+                            h2 -->
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <!-- Se van a crear casi para cada parrafo de las filas una clase con el fin de modificar su sangria y el tamaño de letra -->
+                            <td class="contEducacion1">
+                                <p class="educacionEscuela">
+                                    <b class="educacionNivel">Preparatoria</b><br>
+                                    2016-2020
+                                </p>
+                            </td>
+                            <td class="contEducacion2">
+                                <p class="educacionEscuela">
+                                    <b>Colegio de Ciencias y Humanidades Sur (UNAM)</b><br>
+                                </p>
+                                <p class="educacionEscuelaContenido">
+                                    Colegio de nivel preparatoria en el cual prepara a los alumnos de manera general con
+                                    la especialización parcial de un año enfocado a una carrera
+                                    de preferencia, porporcionando materias con temas relevantes a dichas carreras
+                                    incluyendo la posibilidad de tomar materias no afines para tener
+                                    una conocimiento general.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="contEducacion1">
+                                <p class="educacionEscuela">
+                                    <b >Universidad</b><br>
+                                    2020-202?
+                                </p>
+                            </td>
+                            <td class="contEducacion2">
+                                <p class="educacionEscuela">
+                                    <b>Facultad de Estudios Superiores Aragon (UNAM)</b> <br>
+                                </p>
+                                <p class="educacionEscuelaContenido">
+                                    Escuela de nivel universitario que ofrece a los alumnos carreras academicas con el
+                                    fin de que el alumno se desempeñe en el ambito laboral
+                                    o academico, proporcionandole enseñanazas especializadas conforme a la carrera.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="contEducacion1">
+                                <p class="educacionEscuela">
+                                    <b ">Cursos</b><br>
+                                </p>
+                            </td>
+                            <td class="contEducacion2">
+                                <ul>
+                                    <li>Aplicaciones de lógica matemática en Inteligencia Artificial y Robótica <b>(UNAM)</b></li>
+                                    <li>Tratamiento de datos con Python <b>(UNAM)</b></li>
+                                    <li>Introducción al desarrollo web <b>(UNAM)</b></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="piePagina">
+        <p><b>ESTO ES SOLO UN PROYECTO ACADEMICO PARA LA FACULTAD DE ESTUDIOS SUPERIORES ARAGON</b></p>
+    </div>
+
+</body>
+</html>
