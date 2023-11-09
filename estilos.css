@@ -1,0 +1,323 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* }}}}}}}}}}}}}}}}}}}}}CV}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+
+.CV {
+    /* EL display inline, permite mantener alineado 
+    en linea los bloqes que se generan */
+    background-color: #FFF;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px auto;
+    display: flex;
+    position: relative;
+
+
+}
+
+.CV .Izquierdo {
+    /* Tanto al div 
+    izquierdo como derecho se le atribuiran los display´s de 
+    block para que continuen en cascada */
+    /* tambien se le dara una paleta de colores tipo menta-gris */
+    background-color: #21C4AC;
+    width: 30%;
+    border: solid 4px;
+    position: relative;
+    border-radius: 3%;
+    display: block;
+
+}
+/* }}}}}}}}}}}}}}}}}}}Foto}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+
+/* Delimitamos el tamaño de la foto */
+.CV .Izquierdo .Foto {
+    position: relative;
+    border: 1px;
+    height: 300px;
+    width: 65%;
+    margin: 15px auto;
+
+}
+
+/* Para redondear y darle borde a la foto */
+.CV .Izquierdo .Foto img {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    margin: 15px auto;
+    border-radius: 100%;
+    border:  4px solid;
+    left: 5%;
+}
+
+
+/* Delimitamos todos los hr del div izquierdo */
+.CV .Izquierdo hr{
+    position: relative;
+    width: 90%;
+    margin: 5%;
+}
+
+
+/* }}}}}}}}}}}}}}}}}}}}}Contactos}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+
+/* Para darle espaciado a la tabla de */
+.CV .Izquierdo .Contactos .tablaContactos{
+    position: relative;
+    width: 100%;
+    border-spacing: 5px;
+}
+
+
+/* Esto es para darle estilo al titulo de la tabla */
+.CV .Izquierdo .Contactos .tablaContactos thead th{
+    position: relative;
+    left: 1px;
+    font-size: large;
+}
+
+/* Le agregamos sangria al contenido de la tabla */
+.CV .Izquierdo .Contactos .tablaContactos tbody{
+    position: relative;
+    left: 40px;
+
+}
+
+/* }}}}}}}}}}}}}}}}}}}}}}Habilidades}}}}}}}}}}}}}}}}}}}}}}}} */
+
+
+.CV .Izquierdo .Habilidades{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.CV .Izquierdo .Habilidades .definicionHabilidades{
+    position: relative;
+    width: 100%;
+}
+
+.CV .Izquierdo .Habilidades .definicionHabilidades .definicionHabilidadesTitulo{
+    position: relative;
+    left: 20px;
+}
+
+
+.CV .Izquierdo .Habilidades .definicionHabilidades dt{
+    font-size: large;
+    
+}
+
+/* Aqui ajustamos y modificamos la sangria de la lista des ordenada */
+.CV .Izquierdo .Habilidades .definicionHabilidades ul{
+    position: relative;
+    text-align: justify;
+    margin: 5px auto;
+    right: 13px;
+}
+
+
+/* }}}}}}}}}}}}}}}}}}}}}}Idiomas}}}}}}}}}}}}}}}}}}}}}}}}} */
+
+
+.CV .Izquierdo .Idiomas .tablaIdiomas{
+    position: relative;
+    border-spacing: 5px;
+}
+
+
+.CV .Izquierdo .Idiomas .tablaIdiomas thead {
+    position: relative;
+    font-size: large;
+}
+
+.CV .Izquierdo .Idiomas .tablaIdiomas tr{
+
+    position: relative;
+    left: 15px;
+}
+
+/* Sangria al contenido de la tabla */
+.CV .Izquierdo .Idiomas .tablaIdiomas tbody{
+
+    position: relative;
+    left: 23px;
+}
+/* }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+
+/* ----------------------------------DERECHO----------------------------------------- */
+
+.CV .Derecho {
+    display: block;
+    background-color: #D7DEDD;
+    width: 69%;
+    position: relative;
+    border: solid 3px;
+    left: 6px;
+    border-radius: 1%;
+
+}
+
+/* Todos los hr del lado derecho */
+.CV .Derecho hr{
+    position: relative;
+    width: 97%;
+}
+/* Estos son los h2 del lado derecho como Eperiencia y Educacion */
+.CV .Derecho  h2{ 
+    position: relative;
+    left: 15px;
+    margin: 0 auto;
+
+}
+
+/* }}}}}}}}}}}}}}}}}}}}Nombre}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+
+
+.CV .Derecho .Nombre h1{
+    position: relative;
+    left: 15px;
+    margin: 0 auto;
+    padding: -0 auto;
+    top: 15px;
+}
+
+
+/* Es para el titulo actual, ya que soy estudiante y no ingeniero */
+.CV .Derecho .Nombre h3{
+    opacity: .5;
+    position: relative;
+    left: 15px;
+    margin: 0 auto;
+    padding: -0 auto;
+    top: 10px;
+}
+
+/* }}}}}}}}}}}}}}}}}Presentacion}}}}}}}}}}}}}}}}}}}}}}}}}} */
+
+
+
+
+.CV .Derecho .Presentacion{
+    text-align: justify;
+}
+
+.CV .Derecho .Presentacion p{
+    position: relative;
+    margin: 15px;
+}
+/* }}}}}}}}}}}}}}}}}Exxperiencia}}}}}}}}}}}}}}}}}}}}}}} */
+
+/* Aquí estamos haciendo el parrafo sin margin para que no se distancien entre ellos */
+.CV .Derecho .Experiencia p{
+    position: relative;
+    margin: 0 auto;
+}
+
+
+/* Aquí estamos metiendole sangria */
+
+.CV .Derecho .Experiencia .tablaExperiencia{
+    position: relative;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 12px  5px;
+    
+}
+
+
+/* Eliminamos el margin del hr */
+.CV .Derecho .Experiencia  hr{
+    position: relative;
+    margin: 0 auto;
+}
+
+/* Eliminamos el margin y padding de todos los td */
+
+.CV .Derecho .Experiencia td{
+    position: relative;
+    margin: 0 auto;
+    padding: 0 auto;    
+}
+
+/* reducimos el tamaño del primer columna de la tabla */
+.CV .Derecho .Experiencia .contExp1 {
+    position: relative;
+    width: 10%;
+}
+
+/* Justificamos el parrafo de l tabla  */
+.CV .Derecho .Experiencia .contExp2 {
+    position: relative;
+    text-align: justify;
+
+}
+
+/* aquí estamos haciendo mas grande el primer parrafo que contiene donde se hizo la experiencia */
+.CV .Derecho .Experiencia .tablaExperiencia .experienciaTalCual{
+    font-size: larger;
+}
+
+
+/* }}}}}}}}}}}}}}}}Educacion}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+
+
+
+.CV .Derecho .Educacion p{
+    position: relative;
+    margin: 0 auto;
+}
+
+
+/* esto es para acomodar el espaciado de la tabla */
+.CV .Derecho .Educacion .tablaEducacion{
+    position: relative;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 28px 4px;
+    
+}
+
+
+.CV .Derecho .Educacion  hr{
+    position: relative;
+    margin: 0 auto;
+}
+
+/* esto es para hacer que los slots de la tabla no tengan margen */
+.CV .Derecho .Educacion td{
+    position: relative;
+    margin: 0 auto;
+    padding: 0 auto;
+    
+}
+
+
+/* Esto es para hacer sangria del contenido de la tabla de educacion */
+.CV .Derecho .Educacion .contEducacion2 {
+    position: relative;
+    margin: 15%;
+    text-align: justify;
+
+}
+
+/* Esto es para hacer mas grande los titulos de nivel de educacion y el lugar de la insitución */
+.CV .Derecho .Educacion .tablaEducacion .educacionEscuela{
+    font-size: larger;
+}
+
+/* }}}}}}}}}}}}}}}}Pie pagina}}}}}}}}}}}}}}}}}}}}}
+
+/* Esto es para centrar el pie de pagina */
+.piePagina{
+
+    position: relative;
+    text-align: center;
+
+ }
+
+
